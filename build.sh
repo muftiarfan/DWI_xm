@@ -15,7 +15,7 @@
  #
 #!/bin/bash
 #TOOLCHAIN="/home/neo/android/toolchains/arm-eabi-4.4.3/bin/arm-eabi"
-TOOLCHAIN="/home/neo/android/toolchains/arm-linux-androideabi-4.8/bin/arm-linux-androideabi"
+TOOLCHAIN="/home/neo/android/toolchains/arm-linux-androideabi-4.7/bin/arm-linux-androideabi"
 MODULES_DIR="../modules"
 ZIMAGE="/home/neo/android/kernels/latest/kernel/arch/arm/boot/zImage"
 KERNEL_DIR="/home/neo/android/unpack"
@@ -27,7 +27,7 @@ then
 rm $ZIMAGE
 rm $MODULES_DIR/*
 fi
-make ARCH=arm CROSS_COMPILE=$TOOLCHAIN- proj_S3A_user_defconfig
+make ARCH=arm CROSS_COMPILE=$TOOLCHAIN- nicki_dwi_defconfig
 make ARCH=arm CROSS_COMPILE=$TOOLCHAIN- menuconfig
 make ARCH=arm CROSS_COMPILE=$TOOLCHAIN- -j3
 if [ -a $ZIMAGE ];

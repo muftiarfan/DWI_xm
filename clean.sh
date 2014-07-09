@@ -14,5 +14,5 @@
  #
  #
 #!/bin/bash
-TOOLCHAIN="~/android/toolchains/arm-eabi-4.4.3/bin/arm-eabi-"
-make ARCH=arm CROSS_COMPILE=$TOOLCHAIN clean
+TOOLCHAIN="/home/neo/android/toolchains/arm-linux-androideabi-4.7/bin/arm-linux-androideabi"
+make ARCH=arm CROSS_COMPILE=$TOOLCHAIN- clean
