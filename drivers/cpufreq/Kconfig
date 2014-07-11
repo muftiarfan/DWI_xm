@@ -111,6 +111,11 @@ config CPU_FREQ_DEFAULT_GOV_INTERACTIVE
 
 endchoice
 
+config DWIENABLE_OC
+	bool "Enable Overclocking"
+	help
+	This enables OC up to 1.3 GHz. Stock value is 0.972 GHz.
+
 config CPU_FREQ_GOV_PERFORMANCE
 	tristate "'performance' governor"
 	help
