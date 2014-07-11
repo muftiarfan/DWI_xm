@@ -15,7 +15,7 @@
  #
 #!/bin/bash
 #TOOLCHAIN="/home/neo/android/toolchains/arm-eabi-4.4.3/bin/arm-eabi"
-TOOLCHAIN="/home/neo/android/toolchains/arm-linux-androideabi-4.7/bin/arm-linux-androideabi"
+TOOLCHAIN="/home/neo/android/toolchains/arm-cortex_a15-linux-gnueabihf-linaro_4.8.3/bin/arm-cortex_a15-linux-gnueabihf"
 MODULES_DIR="../modules"
 ZIMAGE="/home/neo/android/kernels/latest/kernel/arch/arm/boot/zImage"
 KERNEL_DIR="/home/neo/android/unpack"
